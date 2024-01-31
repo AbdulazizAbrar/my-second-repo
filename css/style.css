@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+    color: #333333;
+}
+
+header {
+    background-color: #333333;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom:40px
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#bio-image {
+    width: 200px;
+    margin-right: 20px;
+}
+
+#main-bio {
+    width: 70%;
+    margin-top:35px
+}
+
+#contact-info {
+    width: 40%;
+    line-height: 1.5; /* Changed to 1.5 for consistency */
+    display: flex;
+    flex-direction: column;
+    margin-left:60px
+}
+
+ul{
+    margin-left:-10px;
+    margin-top:-10px;
+}
+li{
+   margin-top:-10px
+}
+
+a {
+    color: #d21034;
+    text-decoration: underline
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.mob { 
+color: #d21034;
+text-decoration: underline; 
+}
